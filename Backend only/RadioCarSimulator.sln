@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioCarSimulator.ConsoleApp", "RadioCarSimulator.ConsoleApp\RadioCarSimulator.ConsoleApp.csproj", "{174B8810-AC33-4E0E-B27B-02208080FD8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioCarSimulator.ConsoleApp.Tests", "RadioCarSimulator.ConsoleApp.Tests\RadioCarSimulator.ConsoleApp.Tests.csproj", "{6B44ECB6-0E7F-41F7-9F54-6C5FC4D3B120}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioCarSimulator.Core", "RadioCarSimulator.Core\RadioCarSimulator.Core.csproj", "{696F0EAC-A17F-472E-8550-19CF3EFBAF3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioCarSimulator.Core.Tests", "RadioCarSimulator.Core.Tests\RadioCarSimulator.Core.Tests.csproj", "{A0172F75-10E9-40D5-8DDB-4143198D33D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{847317FF-A928-4C9D-A294-FE1E58207FFB}"
+	ProjectSection(SolutionItems) = preProject
+		Answers.md = Answers.md
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{174B8810-AC33-4E0E-B27B-02208080FD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174B8810-AC33-4E0E-B27B-02208080FD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174B8810-AC33-4E0E-B27B-02208080FD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174B8810-AC33-4E0E-B27B-02208080FD8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B44ECB6-0E7F-41F7-9F54-6C5FC4D3B120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B44ECB6-0E7F-41F7-9F54-6C5FC4D3B120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B44ECB6-0E7F-41F7-9F54-6C5FC4D3B120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B44ECB6-0E7F-41F7-9F54-6C5FC4D3B120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696F0EAC-A17F-472E-8550-19CF3EFBAF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696F0EAC-A17F-472E-8550-19CF3EFBAF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696F0EAC-A17F-472E-8550-19CF3EFBAF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696F0EAC-A17F-472E-8550-19CF3EFBAF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0172F75-10E9-40D5-8DDB-4143198D33D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0172F75-10E9-40D5-8DDB-4143198D33D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0172F75-10E9-40D5-8DDB-4143198D33D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0172F75-10E9-40D5-8DDB-4143198D33D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFA405BF-C466-46AF-A2DB-A151221A0AC2}
+	EndGlobalSection
+EndGlobal
