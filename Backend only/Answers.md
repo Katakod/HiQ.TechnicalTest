@@ -27,7 +27,7 @@ I added basic Exception handling at a "global" level for each project. I didn't 
 This shouldn't matter too much in a small solution as this, but for scaling it would be a good idea. For now, I don't think we care about the logging in e.g. Test projects as it's a side effect and not core functionality.
   
 #### *3. What would you add to your solution if you had more time? This question is especially important if you did not spend much time on the coding test - use this as an opportunity to explain what your solution is missing.*    
-For better scalability and testability I would add DI so that i e.eg could inject a different logger if I wanted.
+For better scalability and testability I would add DI so that i e.g could inject a different logger if I wanted.
 Perhaps I would then also refactor to follow a Factory pattern encapsulating the creation of objects.
 I used tuples extensively in the current solution, but I think it would be more readable if I added some DTO:s to hold result and states (like a CarMovementState for example).
 Also, I would probably change the type exchange and have some request/response objects for the Core service, to make it more similar to a web api with possible JSON serialization.
@@ -37,4 +37,5 @@ I could perhaps add some more tests, like CarTests and RoomTests, and probably r
 And finally, regarding future use cases, I think users may wanna run simulations with multiple cars, perhaps for multiple rooms, and with different type of cars with different behaviours. The more cases, the bigger the need for structure..  
 
 #### *4. What did you think of this recruitment test?*    
-I thought it was a fun assignment that raised a lot of questions to consider. Normally you work in a larger context with teams and colleagues to talk to and have a pre-existing base of conventions and patterns, as well as better scope and feedback checkpoints. 
+I thought it was a fun assignment that raised a lot of questions to consider. Normally you work in a larger context with teams and colleagues to talk to and have a pre-existing base of conventions and patterns, as well as better access to scope and feedback. Depending on context, it's a good thing to keep things simple and let it grow when needed, with a YAGNI mindset. Anyway, I hope my solution for this assignment is a good starting point for a discussion. :)  
+
